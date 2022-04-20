@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA988A6F281046A0001D3C4D /* FileGateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA988A6E281046A0001D3C4D /* FileGateApp.swift */; };
+		FA988A71281046A0001D3C4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA988A70281046A0001D3C4D /* ContentView.swift */; };
+		FA988A73281046A3001D3C4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA988A72281046A3001D3C4D /* Assets.xcassets */; };
+		FA988A76281046A3001D3C4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA988A75281046A3001D3C4D /* Preview Assets.xcassets */; };
+		FA988A78281046A3001D3C4D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA988A77281046A3001D3C4D /* Persistence.swift */; };
+		FA988A7B281046A3001D3C4D /* FileGate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA988A79281046A3001D3C4D /* FileGate.xcdatamodeld */; };
+		FA988A86281046A3001D3C4D /* FileGateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA988A85281046A3001D3C4D /* FileGateTests.swift */; };
+		FA988A90281046A3001D3C4D /* FileGateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA988A8F281046A3001D3C4D /* FileGateUITests.swift */; };
+		FA988A92281046A3001D3C4D /* FileGateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA988A91281046A3001D3C4D /* FileGateUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA988A82281046A3001D3C4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA988A63281046A0001D3C4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA988A6A281046A0001D3C4D;
+			remoteInfo = FileGate;
+		};
+		FA988A8C281046A3001D3C4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA988A63281046A0001D3C4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA988A6A281046A0001D3C4D;
+			remoteInfo = FileGate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA988A6B281046A0001D3C4D /* FileGate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileGate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA988A6E281046A0001D3C4D /* FileGateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileGateApp.swift; sourceTree = "<group>"; };
+		FA988A70281046A0001D3C4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA988A72281046A3001D3C4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA988A75281046A3001D3C4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA988A77281046A3001D3C4D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		FA988A7A281046A3001D3C4D /* FileGate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FileGate.xcdatamodel; sourceTree = "<group>"; };
+		FA988A7C281046A3001D3C4D /* FileGate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FileGate.entitlements; sourceTree = "<group>"; };
+		FA988A81281046A3001D3C4D /* FileGateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileGateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA988A85281046A3001D3C4D /* FileGateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileGateTests.swift; sourceTree = "<group>"; };
+		FA988A8B281046A3001D3C4D /* FileGateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileGateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA988A8F281046A3001D3C4D /* FileGateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileGateUITests.swift; sourceTree = "<group>"; };
+		FA988A91281046A3001D3C4D /* FileGateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileGateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA988A68281046A0001D3C4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA988A7E281046A3001D3C4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA988A88281046A3001D3C4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA988A62281046A0001D3C4D = {
+			isa = PBXGroup;
+			children = (
+				FA988A6D281046A0001D3C4D /* FileGate */,
+				FA988A84281046A3001D3C4D /* FileGateTests */,
+				FA988A8E281046A3001D3C4D /* FileGateUITests */,
+				FA988A6C281046A0001D3C4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA988A6C281046A0001D3C4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA988A6B281046A0001D3C4D /* FileGate.app */,
+				FA988A81281046A3001D3C4D /* FileGateTests.xctest */,
+				FA988A8B281046A3001D3C4D /* FileGateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA988A6D281046A0001D3C4D /* FileGate */ = {
+			isa = PBXGroup;
+			children = (
+				FA988A6E281046A0001D3C4D /* FileGateApp.swift */,
+				FA988A70281046A0001D3C4D /* ContentView.swift */,
+				FA988A72281046A3001D3C4D /* Assets.xcassets */,
+				FA988A77281046A3001D3C4D /* Persistence.swift */,
+				FA988A7C281046A3001D3C4D /* FileGate.entitlements */,
+				FA988A79281046A3001D3C4D /* FileGate.xcdatamodeld */,
+				FA988A74281046A3001D3C4D /* Preview Content */,
+			);
+			path = FileGate;
+			sourceTree = "<group>";
+		};
+		FA988A74281046A3001D3C4D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA988A75281046A3001D3C4D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA988A84281046A3001D3C4D /* FileGateTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA988A85281046A3001D3C4D /* FileGateTests.swift */,
+			);
+			path = FileGateTests;
+			sourceTree = "<group>";
+		};
+		FA988A8E281046A3001D3C4D /* FileGateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA988A8F281046A3001D3C4D /* FileGateUITests.swift */,
+				FA988A91281046A3001D3C4D /* FileGateUITestsLaunchTests.swift */,
+			);
+			path = FileGateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA988A6A281046A0001D3C4D /* FileGate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA988A95281046A3001D3C4D /* Build configuration list for PBXNativeTarget "FileGate" */;
+			buildPhases = (
+				FA988A67281046A0001D3C4D /* Sources */,
+				FA988A68281046A0001D3C4D /* Frameworks */,
+				FA988A69281046A0001D3C4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FileGate;
+			productName = FileGate;
+			productReference = FA988A6B281046A0001D3C4D /* FileGate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA988A80281046A3001D3C4D /* FileGateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA988A98281046A3001D3C4D /* Build configuration list for PBXNativeTarget "FileGateTests" */;
+			buildPhases = (
+				FA988A7D281046A3001D3C4D /* Sources */,
+				FA988A7E281046A3001D3C4D /* Frameworks */,
+				FA988A7F281046A3001D3C4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA988A83281046A3001D3C4D /* PBXTargetDependency */,
+			);
+			name = FileGateTests;
+			productName = FileGateTests;
+			productReference = FA988A81281046A3001D3C4D /* FileGateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA988A8A281046A3001D3C4D /* FileGateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA988A9B281046A3001D3C4D /* Build configuration list for PBXNativeTarget "FileGateUITests" */;
+			buildPhases = (
+				FA988A87281046A3001D3C4D /* Sources */,
+				FA988A88281046A3001D3C4D /* Frameworks */,
+				FA988A89281046A3001D3C4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA988A8D281046A3001D3C4D /* PBXTargetDependency */,
+			);
+			name = FileGateUITests;
+			productName = FileGateUITests;
+			productReference = FA988A8B281046A3001D3C4D /* FileGateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA988A63281046A0001D3C4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					FA988A6A281046A0001D3C4D = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					FA988A80281046A3001D3C4D = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = FA988A6A281046A0001D3C4D;
+					};
+					FA988A8A281046A3001D3C4D = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = FA988A6A281046A0001D3C4D;
+					};
+				};
+			};
+			buildConfigurationList = FA988A66281046A0001D3C4D /* Build configuration list for PBXProject "FileGate" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA988A62281046A0001D3C4D;
+			productRefGroup = FA988A6C281046A0001D3C4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA988A6A281046A0001D3C4D /* FileGate */,
+				FA988A80281046A3001D3C4D /* FileGateTests */,
+				FA988A8A281046A3001D3C4D /* FileGateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA988A69281046A0001D3C4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA988A76281046A3001D3C4D /* Preview Assets.xcassets in Resources */,
+				FA988A73281046A3001D3C4D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA988A7F281046A3001D3C4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA988A89281046A3001D3C4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA988A67281046A0001D3C4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA988A78281046A3001D3C4D /* Persistence.swift in Sources */,
+				FA988A71281046A0001D3C4D /* ContentView.swift in Sources */,
+				FA988A7B281046A3001D3C4D /* FileGate.xcdatamodeld in Sources */,
+				FA988A6F281046A0001D3C4D /* FileGateApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA988A7D281046A3001D3C4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA988A86281046A3001D3C4D /* FileGateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA988A87281046A3001D3C4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA988A92281046A3001D3C4D /* FileGateUITestsLaunchTests.swift in Sources */,
+				FA988A90281046A3001D3C4D /* FileGateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA988A83281046A3001D3C4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA988A6A281046A0001D3C4D /* FileGate */;
+			targetProxy = FA988A82281046A3001D3C4D /* PBXContainerItemProxy */;
+		};
+		FA988A8D281046A3001D3C4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA988A6A281046A0001D3C4D /* FileGate */;
+			targetProxy = FA988A8C281046A3001D3C4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA988A93281046A3001D3C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA988A94281046A3001D3C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FA988A96281046A3001D3C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FileGate/FileGate.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FileGate/Preview Content\"";
+				DEVELOPMENT_TEAM = HP4NT2ZQ2F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.meetthe.FileGate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FA988A97281046A3001D3C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FileGate/FileGate.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FileGate/Preview Content\"";
+				DEVELOPMENT_TEAM = HP4NT2ZQ2F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.meetthe.FileGate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FA988A99281046A3001D3C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HP4NT2ZQ2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.meetthe.FileGateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileGate.app/Contents/MacOS/FileGate";
+			};
+			name = Debug;
+		};
+		FA988A9A281046A3001D3C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HP4NT2ZQ2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.meetthe.FileGateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileGate.app/Contents/MacOS/FileGate";
+			};
+			name = Release;
+		};
+		FA988A9C281046A3001D3C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HP4NT2ZQ2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.meetthe.FileGateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FileGate;
+			};
+			name = Debug;
+		};
+		FA988A9D281046A3001D3C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HP4NT2ZQ2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.meetthe.FileGateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FileGate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA988A66281046A0001D3C4D /* Build configuration list for PBXProject "FileGate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA988A93281046A3001D3C4D /* Debug */,
+				FA988A94281046A3001D3C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA988A95281046A3001D3C4D /* Build configuration list for PBXNativeTarget "FileGate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA988A96281046A3001D3C4D /* Debug */,
+				FA988A97281046A3001D3C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA988A98281046A3001D3C4D /* Build configuration list for PBXNativeTarget "FileGateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA988A99281046A3001D3C4D /* Debug */,
+				FA988A9A281046A3001D3C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA988A9B281046A3001D3C4D /* Build configuration list for PBXNativeTarget "FileGateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA988A9C281046A3001D3C4D /* Debug */,
+				FA988A9D281046A3001D3C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA988A79281046A3001D3C4D /* FileGate.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA988A7A281046A3001D3C4D /* FileGate.xcdatamodel */,
+			);
+			currentVersion = FA988A7A281046A3001D3C4D /* FileGate.xcdatamodel */;
+			path = FileGate.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA988A63281046A0001D3C4D /* Project object */;
+}
