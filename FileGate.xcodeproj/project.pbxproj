@@ -16,6 +16,19 @@
 		FA988A86281046A3001D3C4D /* FileGateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA988A85281046A3001D3C4D /* FileGateTests.swift */; };
 		FA988A90281046A3001D3C4D /* FileGateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA988A8F281046A3001D3C4D /* FileGateUITests.swift */; };
 		FA988A92281046A3001D3C4D /* FileGateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA988A91281046A3001D3C4D /* FileGateUITestsLaunchTests.swift */; };
+		FA988A9F281046E7001D3C4D /* FileList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA988A9E281046E7001D3C4D /* FileList.swift */; };
+		FA988AA128108C10001D3C4D /* ImageCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA988AA028108C10001D3C4D /* ImageCard.swift */; };
+		FA988AA32812DE7C001D3C4D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA988AA22812DE7C001D3C4D /* MainView.swift */; };
+		FA988AA52812FB4D001D3C4D /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA988AA42812FB4D001D3C4D /* sample.jpg */; };
+		FA988AAD28135756001D3C4D /* FileGateIosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA988AAC28135756001D3C4D /* FileGateIosApp.swift */; };
+		FA988AAF28135756001D3C4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA988AAE28135756001D3C4D /* ContentView.swift */; };
+		FA988AB128135757001D3C4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA988AB028135757001D3C4D /* Assets.xcassets */; };
+		FA988AB428135757001D3C4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA988AB328135757001D3C4D /* Preview Assets.xcassets */; };
+		FA988AB628135757001D3C4D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA988AB528135757001D3C4D /* Persistence.swift */; };
+		FA988AB928135757001D3C4D /* FileGateIos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA988AB728135757001D3C4D /* FileGateIos.xcdatamodeld */; };
+		FA988AC328135757001D3C4D /* FileGateIosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA988AC228135757001D3C4D /* FileGateIosTests.swift */; };
+		FA988ACD28135757001D3C4D /* FileGateIosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA988ACC28135757001D3C4D /* FileGateIosUITests.swift */; };
+		FA988ACF28135757001D3C4D /* FileGateIosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA988ACE28135757001D3C4D /* FileGateIosUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +46,20 @@
 			remoteGlobalIDString = FA988A6A281046A0001D3C4D;
 			remoteInfo = FileGate;
 		};
+		FA988ABF28135757001D3C4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA988A63281046A0001D3C4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA988AA928135756001D3C4D;
+			remoteInfo = FileGateIos;
+		};
+		FA988AC928135757001D3C4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA988A63281046A0001D3C4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA988AA928135756001D3C4D;
+			remoteInfo = FileGateIos;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +76,22 @@
 		FA988A8B281046A3001D3C4D /* FileGateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileGateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA988A8F281046A3001D3C4D /* FileGateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileGateUITests.swift; sourceTree = "<group>"; };
 		FA988A91281046A3001D3C4D /* FileGateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileGateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA988A9E281046E7001D3C4D /* FileList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileList.swift; sourceTree = "<group>"; };
+		FA988AA028108C10001D3C4D /* ImageCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCard.swift; sourceTree = "<group>"; };
+		FA988AA22812DE7C001D3C4D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FA988AA42812FB4D001D3C4D /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample.jpg; sourceTree = "<group>"; };
+		FA988AAA28135756001D3C4D /* FileGateIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileGateIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA988AAC28135756001D3C4D /* FileGateIosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileGateIosApp.swift; sourceTree = "<group>"; };
+		FA988AAE28135756001D3C4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA988AB028135757001D3C4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA988AB328135757001D3C4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA988AB528135757001D3C4D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		FA988AB828135757001D3C4D /* FileGateIos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FileGateIos.xcdatamodel; sourceTree = "<group>"; };
+		FA988ABE28135757001D3C4D /* FileGateIosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileGateIosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA988AC228135757001D3C4D /* FileGateIosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileGateIosTests.swift; sourceTree = "<group>"; };
+		FA988AC828135757001D3C4D /* FileGateIosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileGateIosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA988ACC28135757001D3C4D /* FileGateIosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileGateIosUITests.swift; sourceTree = "<group>"; };
+		FA988ACE28135757001D3C4D /* FileGateIosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileGateIosUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +116,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA988AA728135756001D3C4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA988ABB28135757001D3C4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA988AC528135757001D3C4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +146,9 @@
 				FA988A6D281046A0001D3C4D /* FileGate */,
 				FA988A84281046A3001D3C4D /* FileGateTests */,
 				FA988A8E281046A3001D3C4D /* FileGateUITests */,
+				FA988AAB28135756001D3C4D /* FileGateIos */,
+				FA988AC128135757001D3C4D /* FileGateIosTests */,
+				FA988ACB28135757001D3C4D /* FileGateIosUITests */,
 				FA988A6C281046A0001D3C4D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +159,9 @@
 				FA988A6B281046A0001D3C4D /* FileGate.app */,
 				FA988A81281046A3001D3C4D /* FileGateTests.xctest */,
 				FA988A8B281046A3001D3C4D /* FileGateUITests.xctest */,
+				FA988AAA28135756001D3C4D /* FileGateIos.app */,
+				FA988ABE28135757001D3C4D /* FileGateIosTests.xctest */,
+				FA988AC828135757001D3C4D /* FileGateIosUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +169,17 @@
 		FA988A6D281046A0001D3C4D /* FileGate */ = {
 			isa = PBXGroup;
 			children = (
+				FA988AA42812FB4D001D3C4D /* sample.jpg */,
 				FA988A6E281046A0001D3C4D /* FileGateApp.swift */,
+				FA988A9E281046E7001D3C4D /* FileList.swift */,
+				FA988AA028108C10001D3C4D /* ImageCard.swift */,
 				FA988A70281046A0001D3C4D /* ContentView.swift */,
 				FA988A72281046A3001D3C4D /* Assets.xcassets */,
 				FA988A77281046A3001D3C4D /* Persistence.swift */,
 				FA988A7C281046A3001D3C4D /* FileGate.entitlements */,
 				FA988A79281046A3001D3C4D /* FileGate.xcdatamodeld */,
 				FA988A74281046A3001D3C4D /* Preview Content */,
+				FA988AA22812DE7C001D3C4D /* MainView.swift */,
 			);
 			path = FileGate;
 			sourceTree = "<group>";
@@ -133,6 +207,44 @@
 				FA988A91281046A3001D3C4D /* FileGateUITestsLaunchTests.swift */,
 			);
 			path = FileGateUITests;
+			sourceTree = "<group>";
+		};
+		FA988AAB28135756001D3C4D /* FileGateIos */ = {
+			isa = PBXGroup;
+			children = (
+				FA988AAC28135756001D3C4D /* FileGateIosApp.swift */,
+				FA988AAE28135756001D3C4D /* ContentView.swift */,
+				FA988AB028135757001D3C4D /* Assets.xcassets */,
+				FA988AB528135757001D3C4D /* Persistence.swift */,
+				FA988AB728135757001D3C4D /* FileGateIos.xcdatamodeld */,
+				FA988AB228135757001D3C4D /* Preview Content */,
+			);
+			path = FileGateIos;
+			sourceTree = "<group>";
+		};
+		FA988AB228135757001D3C4D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA988AB328135757001D3C4D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA988AC128135757001D3C4D /* FileGateIosTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA988AC228135757001D3C4D /* FileGateIosTests.swift */,
+			);
+			path = FileGateIosTests;
+			sourceTree = "<group>";
+		};
+		FA988ACB28135757001D3C4D /* FileGateIosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA988ACC28135757001D3C4D /* FileGateIosUITests.swift */,
+				FA988ACE28135757001D3C4D /* FileGateIosUITestsLaunchTests.swift */,
+			);
+			path = FileGateIosUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +303,59 @@
 			productReference = FA988A8B281046A3001D3C4D /* FileGateUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		FA988AA928135756001D3C4D /* FileGateIos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA988AD028135757001D3C4D /* Build configuration list for PBXNativeTarget "FileGateIos" */;
+			buildPhases = (
+				FA988AA628135756001D3C4D /* Sources */,
+				FA988AA728135756001D3C4D /* Frameworks */,
+				FA988AA828135756001D3C4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FileGateIos;
+			productName = FileGateIos;
+			productReference = FA988AAA28135756001D3C4D /* FileGateIos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA988ABD28135757001D3C4D /* FileGateIosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA988AD328135757001D3C4D /* Build configuration list for PBXNativeTarget "FileGateIosTests" */;
+			buildPhases = (
+				FA988ABA28135757001D3C4D /* Sources */,
+				FA988ABB28135757001D3C4D /* Frameworks */,
+				FA988ABC28135757001D3C4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA988AC028135757001D3C4D /* PBXTargetDependency */,
+			);
+			name = FileGateIosTests;
+			productName = FileGateIosTests;
+			productReference = FA988ABE28135757001D3C4D /* FileGateIosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA988AC728135757001D3C4D /* FileGateIosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA988AD628135757001D3C4D /* Build configuration list for PBXNativeTarget "FileGateIosUITests" */;
+			buildPhases = (
+				FA988AC428135757001D3C4D /* Sources */,
+				FA988AC528135757001D3C4D /* Frameworks */,
+				FA988AC628135757001D3C4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA988ACA28135757001D3C4D /* PBXTargetDependency */,
+			);
+			name = FileGateIosUITests;
+			productName = FileGateIosUITests;
+			productReference = FA988AC828135757001D3C4D /* FileGateIosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -212,6 +377,17 @@
 						CreatedOnToolsVersion = 13.3.1;
 						TestTargetID = FA988A6A281046A0001D3C4D;
 					};
+					FA988AA928135756001D3C4D = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					FA988ABD28135757001D3C4D = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = FA988AA928135756001D3C4D;
+					};
+					FA988AC728135757001D3C4D = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = FA988AA928135756001D3C4D;
+					};
 				};
 			};
 			buildConfigurationList = FA988A66281046A0001D3C4D /* Build configuration list for PBXProject "FileGate" */;
@@ -230,6 +406,9 @@
 				FA988A6A281046A0001D3C4D /* FileGate */,
 				FA988A80281046A3001D3C4D /* FileGateTests */,
 				FA988A8A281046A3001D3C4D /* FileGateUITests */,
+				FA988AA928135756001D3C4D /* FileGateIos */,
+				FA988ABD28135757001D3C4D /* FileGateIosTests */,
+				FA988AC728135757001D3C4D /* FileGateIosUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,6 +419,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA988A76281046A3001D3C4D /* Preview Assets.xcassets in Resources */,
+				FA988AA52812FB4D001D3C4D /* sample.jpg in Resources */,
 				FA988A73281046A3001D3C4D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +438,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA988AA828135756001D3C4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA988AB428135757001D3C4D /* Preview Assets.xcassets in Resources */,
+				FA988AB128135757001D3C4D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA988ABC28135757001D3C4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA988AC628135757001D3C4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -266,8 +469,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA988A78281046A3001D3C4D /* Persistence.swift in Sources */,
+				FA988AA32812DE7C001D3C4D /* MainView.swift in Sources */,
+				FA988A9F281046E7001D3C4D /* FileList.swift in Sources */,
 				FA988A71281046A0001D3C4D /* ContentView.swift in Sources */,
 				FA988A7B281046A3001D3C4D /* FileGate.xcdatamodeld in Sources */,
+				FA988AA128108C10001D3C4D /* ImageCard.swift in Sources */,
 				FA988A6F281046A0001D3C4D /* FileGateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +495,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA988AA628135756001D3C4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA988AB928135757001D3C4D /* FileGateIos.xcdatamodeld in Sources */,
+				FA988AB628135757001D3C4D /* Persistence.swift in Sources */,
+				FA988AAF28135756001D3C4D /* ContentView.swift in Sources */,
+				FA988AAD28135756001D3C4D /* FileGateIosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA988ABA28135757001D3C4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA988AC328135757001D3C4D /* FileGateIosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA988AC428135757001D3C4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA988ACD28135757001D3C4D /* FileGateIosUITests.swift in Sources */,
+				FA988ACF28135757001D3C4D /* FileGateIosUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -301,6 +535,16 @@
 			isa = PBXTargetDependency;
 			target = FA988A6A281046A0001D3C4D /* FileGate */;
 			targetProxy = FA988A8C281046A3001D3C4D /* PBXContainerItemProxy */;
+		};
+		FA988AC028135757001D3C4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA988AA928135756001D3C4D /* FileGateIos */;
+			targetProxy = FA988ABF28135757001D3C4D /* PBXContainerItemProxy */;
+		};
+		FA988ACA28135757001D3C4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA988AA928135756001D3C4D /* FileGateIos */;
+			targetProxy = FA988AC928135757001D3C4D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -424,6 +668,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = FileGate/FileGate.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -432,6 +677,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,6 +697,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = FileGate/FileGate.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -459,6 +706,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -544,6 +792,153 @@
 			};
 			name = Release;
 		};
+		FA988AD128135757001D3C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FileGateIos/Preview Content\"";
+				DEVELOPMENT_TEAM = HP4NT2ZQ2F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.meetthe.FileGateIos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA988AD228135757001D3C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FileGateIos/Preview Content\"";
+				DEVELOPMENT_TEAM = HP4NT2ZQ2F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.meetthe.FileGateIos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA988AD428135757001D3C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HP4NT2ZQ2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.meetthe.FileGateIosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileGateIos.app/FileGateIos";
+			};
+			name = Debug;
+		};
+		FA988AD528135757001D3C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HP4NT2ZQ2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.meetthe.FileGateIosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileGateIos.app/FileGateIos";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA988AD728135757001D3C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HP4NT2ZQ2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.meetthe.FileGateIosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FileGateIos;
+			};
+			name = Debug;
+		};
+		FA988AD828135757001D3C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HP4NT2ZQ2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.meetthe.FileGateIosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FileGateIos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -583,6 +978,33 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		FA988AD028135757001D3C4D /* Build configuration list for PBXNativeTarget "FileGateIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA988AD128135757001D3C4D /* Debug */,
+				FA988AD228135757001D3C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA988AD328135757001D3C4D /* Build configuration list for PBXNativeTarget "FileGateIosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA988AD428135757001D3C4D /* Debug */,
+				FA988AD528135757001D3C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA988AD628135757001D3C4D /* Build configuration list for PBXNativeTarget "FileGateIosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA988AD728135757001D3C4D /* Debug */,
+				FA988AD828135757001D3C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
@@ -593,6 +1015,16 @@
 			);
 			currentVersion = FA988A7A281046A3001D3C4D /* FileGate.xcdatamodel */;
 			path = FileGate.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		FA988AB728135757001D3C4D /* FileGateIos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA988AB828135757001D3C4D /* FileGateIos.xcdatamodel */,
+			);
+			currentVersion = FA988AB828135757001D3C4D /* FileGateIos.xcdatamodel */;
+			path = FileGateIos.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

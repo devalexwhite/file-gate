@@ -1,19 +1,19 @@
 //
-//  FileGateApp.swift
-//  FileGate
+//  FileGateIosApp.swift
+//  FileGateIos
 //
-//  Created by Alex White on 4/20/22.
+//  Created by Alex White on 4/22/22.
 //
 
 import SwiftUI
 
 @main
-struct FileGateApp: App {
+struct FileGateIosApp: App {
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
         WindowGroup {
-            MainView()
+            ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
