@@ -92,6 +92,8 @@
 		FA988AC828135757001D3C4D /* FileGateIosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileGateIosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA988ACC28135757001D3C4D /* FileGateIosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileGateIosUITests.swift; sourceTree = "<group>"; };
 		FA988ACE28135757001D3C4D /* FileGateIosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileGateIosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAF03CCE28161F89009083D9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FAF03CCF281620A1009083D9 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,8 @@
 		FA988A62281046A0001D3C4D = {
 			isa = PBXGroup;
 			children = (
+				FAF03CCF281620A1009083D9 /* demo.gif */,
+				FAF03CCE28161F89009083D9 /* README.md */,
 				FA988A6D281046A0001D3C4D /* FileGate */,
 				FA988A84281046A3001D3C4D /* FileGateTests */,
 				FA988A8E281046A3001D3C4D /* FileGateUITests */,
